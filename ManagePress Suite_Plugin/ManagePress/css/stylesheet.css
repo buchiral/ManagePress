@@ -1,0 +1,544 @@
+/* CSS Document */
+.wrap #icon-options-general.icon32-todo {
+background: url("../images/px.png") no-repeat scroll left top transparent;
+}
+
+.mps_line {
+	border-bottom-style:solid;
+	border-bottom-color:#999;
+	border-bottom-width:1.5px;
+	padding-bottom:15px;
+}
+
+.mps_barometer{
+background-color:#999;
+float:left;
+-webkit-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+border-radius: 3px;
+height:1em;
+}
+
+
+.tdm_logo{
+background: url("../images/posttype_icons/organization32.png") no-repeat scroll left top transparent;
+width:32px;
+height:32px;
+float:left;
+margin: 7px 8px 0 0;
+margin-top: 7px;
+margin-right: 8px;
+margin-bottom: 0px;
+margin-left: 0px;
+}
+
+
+.todo-step-img{
+	float:left;
+	width:75px;
+	margin-top:10px;
+}
+
+
+.todo-step-text{
+	width:800px;
+	float:left;
+}
+
+
+.todo_add_posttype fieldset{
+	border:solid;
+	padding:20px;
+	
+}
+
+/* tdm_form_posttype */
+.tdm_form_posttype .new_line{
+	clear:both;
+	float:left;
+	margin-bottom:15px;
+}
+
+.tdm_form_posttype input , .tdm_form_posttype textarea {
+	width:250px;
+}
+
+.tdm_form_posttype input[type=checkbox], .tdm_form_posttype input[type=radio] {
+	width:auto;
+	clear:both;
+}
+
+.tdm_form_posttype .right_element {
+	float:left;
+}
+
+.tdm_form_posttype .left_element {
+	width:150px;
+	float:left;
+}
+
+
+.tdm_form_posttype .message{
+	float:left;
+	margin-left:20px;
+	color:red;
+	display:none;
+	font-weight:bold;
+}
+
+
+
+
+
+/* 
+----------------------------------------------
+      Template Customfield Box  
+----------------------------------------------
+*/
+.mps_field_box{
+	clear:both;
+	display:block;
+	float:left;
+}
+
+.mps_field_box .message{
+	float:left;
+	margin-left:20px;
+	color:red;
+	display:none;
+	font-weight:bold;
+}
+
+.mps_field_box input, .mps_field_box select, .mps_field_box textarea{
+	width:200px;
+}
+
+.mps_field_box .input_field_label{
+	width:150px;
+	float:left;
+	clear:both;
+	margin-bottom:4px;
+	margin-top:4px;
+}
+
+
+.mps_field_box .input_field_label_rigth{
+	float:left;
+	margin-bottom:4px;
+	margin-top:4px;
+}
+
+.mps_field_box .mps_field_box_middle{
+	float:left;
+	clear:both;
+}
+
+.mps_field_box .mps_field_box_bottom{
+	float:left;
+	clear:both;
+	margin-top:20px;
+	width:100%;
+}
+
+.mps_field_box .mps_attribute_field{
+	float:left;
+	clear:both;
+}
+
+.mps_field_box .mps_attribute_field input{
+	width:150px;
+}
+
+.mps_field_box .mps_button_delete_attribute{
+	background:url(../images/icons_256x240_grey.png);
+	width:16px;
+	height:16px;
+	background-position: -80px -128px;
+	float:left;
+	cursor:pointer;
+}
+
+.mps_field_box .mps_button_delete_attribute:hover{
+	background:url(../images/icons_256x240_red.png);
+	background-position: -80px -128px;
+}
+
+
+.mps_field_box .field_date{
+	background-image:url(../images/date.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	cursor:pointer;
+}
+
+.mps_field_box .field_time{
+	background-image:url(../images/datetime.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+.mps_field_box .field_text{
+	
+}
+
+
+
+
+/* 
+----------------------------------------------
+      Template Metabox style  
+----------------------------------------------
+*/
+
+#tdm_meta_box .mps_input_sector_1{
+border-bottom-width: 1px;
+border-bottom-style:solid;
+border-bottom-color: #DFDFDF;
+padding-top:10px;
+padding-bottom:10px;
+clear:both;
+}
+
+#tdm_meta_box .mps_input_sector_2{
+	float:left;
+}
+
+
+#tdm_meta_box  .mps_button_delete_attribute{
+	background:url(../images/icons_256x240_grey.png);
+	width:16px;
+	height:16px;
+	background-position: -80px -128px;
+	float:left;
+	cursor:pointer;
+}
+
+#tdm_meta_box  .mps_button_delete_attribute:hover{
+	background:url(../images/icons_256x240_red.png);
+	background-position: -80px -128px;
+}
+
+
+
+#tdm_meta_box  .mps_button_add_input_attribute{
+	background:url(../images/icons_256x240_grey.png);
+	width:16px;
+	height:16px;
+	clear:both;
+	background-position: -32px -128px;
+	float:left;
+	cursor:pointer;
+}
+
+#tdm_meta_box  .mps_button_add_input_attribute:hover{
+	background:url(../images/icons_256x240_red.png);
+	background-position: -32px -128px;
+}
+
+
+
+#tdm_meta_box .mps_input_label{
+	float:left;
+	min-width:150px;
+	width:150px;
+}
+
+
+#tdm_meta_box .mps_input_border{
+	float:left;
+	
+}
+
+#tdm_meta_box .field_date, #tdm_meta_box .field_time{
+	border-color: #DFDFDF;
+	background-color: white;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border-width: 1px;
+	border-style: solid;
+}
+
+#tdm_meta_box .field_date{
+	background-image:url(../images/date.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	cursor:pointer;
+	float:left;
+}
+
+#tdm_meta_box .field_time{
+	background-image:url(../images/datetime.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+#tdm_meta_box .field_longtext{
+	width:350px;
+	height:80px;
+	display:block;
+	float:left;
+}
+
+#tdm_meta_box .field_coordinates_address{
+	width:150px;
+}
+
+#tdm_meta_box .field_text, #tdm_meta_box .field_integer, #tdm_meta_box .field_biginteger{
+	width:150px;
+	display:block;
+	float:left;
+}
+
+
+
+
+
+/* 
+----------------------------------------------
+      Template Post Connection BOX  
+----------------------------------------------
+*/
+
+.tdm_postconnection_box{
+	float:left;
+	width:100%;
+}
+
+.tdm_postconnection_box #tdm_postconnection_list{
+	margin-top:30px;
+	
+}
+
+.tdm_postconnection_box .tdm_postconnection_box_add{
+	display:none;
+}
+
+
+.tdm_postconnection_box #dataTable_postconnection {
+width: 100%;
+border-collapse: collapse;
+margin: 0 0 0 0;
+padding:0 0 0 0;
+color: #333;
+border-top: 1px #CCC solid;
+border-bottom: 1px #CCC solid;	
+}
+
+#dataTable_postconnection th:hover {
+background:none;
+}
+
+
+#dataTable_postconnection tbody td {
+padding-top: 5px;
+padding-bottom: 5px;
+text-align: left;
+border-top: 1px solid #CCC;
+padding-right: 10px;
+padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                */
+.tdm_default_sector{
+	clear:both;
+	margin-top:10px;
+	float:left;
+}
+
+.button_delete_field{
+	width:70px;
+	height:20px;
+	border:solid;
+	cursor:pointer
+}
+
+
+
+
+
+
+.tdm_postconnection{
+	float:left;	
+}
+
+.tdm_postconnection .tdm_grp2_left{
+	font-weight:bold;
+}
+
+.tdm_postconnection .tdm_post_line{
+	background:url(../images/link.gif);
+	background-repeat:no-repeat;
+	padding-left:20px;
+}
+
+
+.tdm_postconnection_elements{
+	clear:both;	
+}
+
+
+.tdm_postconnection_posts{
+
+}
+
+
+
+.tdm_post_connection_input{
+	display:none;
+}
+
+
+
+.tdm_post_connection_del_button{
+	background:url(../images/icons_256x240_grey.png);
+	width:16px;
+	height:16px;
+	background-position: -80px  -128px;
+	display:inline-block;
+	cursor:pointer;
+}
+
+.tdm_post_connection_del_button:hover{
+	background:url(../images/icons_256x240_red.png);
+	background-position: -80px  -128px;
+}
+
+.tdm_button_posttype{
+	width:auto;
+	text-align:center;
+	float:left;
+	margin-right:5px;
+	line-height: 15px;
+}
+
+
+
+
+.tdm_table, #tdm_table_customfields {
+width: 100%;
+border-collapse: collapse;
+margin: 1.3571em 0 0 0;
+color: #333;
+border-top: 1px #CCC solid;
+border-bottom: 1px #CCC solid;	
+}
+
+
+.td_nowrap{
+	white-space:nowrap;	
+}
+
+
+.tdm_table tbody td {
+	padding-top:15px;
+	padding-bottom:10px;
+	text-align: left;
+	border-top: 1px solid #CCC;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+
+.tdm_table tbody tr:hover {
+	background-color:#ECECEC;
+}
+
+.tdm_table thead th {
+text-align: left;
+color: black;
+border-bottom: 2px black solid;
+padding-bottom:15px;
+padding-top:15px;
+padding-right:10px;
+padding-left:10px;
+background-color: #F1F1F1;
+background-image: -ms-linear-gradient(top,#F9F9F9,#ECECEC);
+background-image: -moz-linear-gradient(top,#F9F9F9,#ECECEC);
+background-image: -o-linear-gradient(top,#F9F9F9,#ECECEC);
+background-image: -webkit-gradient(linear,left top,left bottom,from(#F9F9F9),to(#ECECEC));
+background-image: -webkit-linear-gradient(top,#F9F9F9,#ECECEC);
+background-image: linear-gradient(top,#F9F9F9,#ECECEC);
+font-weight:bold;
+}
+
+
+
+
+
+
+
+.tdm_table tfoot th {
+	background-color:#C7D7E2;
+	padding-top:13px;
+	padding-bottom:13px;
+	text-align: left;
+	padding-left:10px;
+}
+
+#tdm_add_field_div{
+		background-color:#C7D7E2;
+	padding-top:13px;
+	padding-bottom:13px;
+	text-align: left;
+	padding-left:10px;
+}
+/*------------
+*/
+.tdm_list_posts{
+	border-bottom:solid;
+	margin-bottom:20px;
+	
+	
+}
+
+
+
+/*
+
+
+*/
+
+
+/* 
+----------------------------------------------
+      Template Dashboard  
+----------------------------------------------
+*/
+
+#mps_dashboard_datatable_list table {
+width: 100%;
+border-collapse: collapse;
+color: #333;
+border-top: 1px #CCC solid;
+border-bottom: 1px #CCC solid;	
+border-bottom: 1px solid #DDD;
+margin: 0 0 1.625em;
+width: 100%;
+}
+
+
+#mps_dashboard_datatable_list td {
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+
+
+
+

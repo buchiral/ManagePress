@@ -1,0 +1,222 @@
+/* CSS Document */
+
+/* 
+----------------------------------------------
+      Template Front Table-List  
+----------------------------------------------
+*/
+#map_canvas img{ max-width:none;  line-height:0; }
+
+.tdm_list_template{
+	margin-top:30px;
+}
+
+#mps_datatable_list table {
+width: 100%;
+border-collapse: collapse;
+margin: 1.3571em 0 0 0;
+color: #333;
+border-top: 1px #CCC solid;
+border-bottom: 1px #CCC solid;	
+}
+
+#mps_datatable_list tbody tr:hover {
+	background-color:#ECECEC;
+}
+
+
+#mps_datatable_list tbody td {
+	font-size:12px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:0px;
+	padding-bottom:0px;
+	text-align: left;
+	border-top: 1px solid #CCC;
+}
+
+
+#mps_datatable_list thead th {
+
+}
+
+#mps_datatable_list th:hover {
+background:none;
+background-image: url(../js/jquery/dataTables/dataTables_1.9.0/images/sort_desc.png);
+background-position:right;
+background-repeat:no-repeat;
+background-attachment: initial;
+background-origin: initial;
+background-clip: initial;
+background-color: initial;
+}
+
+#mps_datatable_list tfoot th {
+	background-color:#C7D7E2;
+	padding-top:13px;
+	padding-bottom:13px;
+	text-align: left;
+	padding-left:10px;
+}
+
+#mps_datatable_list_filter input[type=text] {
+width:150px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+border-width: 1px;
+border-style: solid;
+line-height: 15px;
+}
+
+
+.tab_button{
+cursor:pointer;
+width:80px;
+text-align:center;
+color:#FFF;
+float:left;
+padding-left:4px;
+padding-right:4px;
+margin-left:4px;
+margin-top:5px;
+margin-right:8px;
+	
+-webkit-border-top-left-radius: 3px;
+-webkit-border-top-right-radius: 3px;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+
+border-color:black;
+border-style:solid;
+border-width:1px;
+border-bottom: 0 !important;
+
+background-color: #F1F1F1;
+background-image: -ms-linear-gradient(top,#777777,#3C3C3C);
+background-image: -moz-linear-gradient(top,#777777,#3C3C3C);
+background-image: -o-linear-gradient(top,#777777,#3C3C3C);
+background-image: -webkit-gradient(linear,left top,left bottom,from(#777777),to(#3C3C3C));
+background-image: -webkit-linear-gradient(top,#777777,#3C3C3C);
+background-image: linear-gradient(top,#777777,#3C3C3C);
+
+}
+
+
+.navi{
+display: block;
+float:left;
+width:100%;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+background-image: url(../images/bg_1.png);
+background-repeat-x: repeat;
+background-repeat-y: no-repeat;
+background-attachment: initial;
+background-position-x: 50%;
+background-position-y: 50%;
+background-origin: initial;
+background-clip: initial;
+background-color: #CCC;
+margin-bottom:30px;
+}
+
+.tab_button:hover {
+background-color: #CCC;	
+background-image:none;	
+}
+
+.active{
+	color:black;
+	background-color:#FFF;
+	background-image:none;
+}
+
+
+.tdm_userconnect{
+	display:inline;
+	background-color:#CFCFCF;
+	color:black;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding-bottom:0px;
+	padding-top:0px;
+	padding-left:4px;
+	padding-right:4px;
+	margin-right:3px;
+}
+
+
+/* 
+----------------------------------------------
+      Template Front Single/Archive View  
+----------------------------------------------
+*/
+.mps_view_customfields{
+margin-left:20px;
+background: whiteSmoke;
+border: 1px solid #DADADA;
+padding: 11px;
+overflow: auto;
+}
+
+.mps_view_customfields	#mps_table_content{
+	border:none;
+}
+	
+
+.mps_view_customfields	#mps_table_content tr{
+	line-height: 1.3em;
+	padding:0;
+	vertical-align:top;
+}
+	
+.mps_view_customfields	#mps_table_content .mps_left_1{
+min-width: 150px;
+width: 150px;
+color:grey;
+border:none;
+border-right-color:#DADADA;
+border-right-width:1px;
+border-right-style:solid;
+padding:0;
+}
+	
+.mps_view_customfields #mps_table_content .mps_right_1	{
+width:350px;
+border:0;
+padding:0 0 0 7px;
+}
+
+
+.mps_view_postconnection{
+margin-top:20px;
+margin-left:20px;
+background: whiteSmoke;
+border: 1px solid #DADADA;
+line-height: 1.3em;
+overflow: auto;
+}
+
+
+.mps_view_postconnection .mps_title_001{
+border-bottom: 1px solid #DADADA;
+margin-bottom:0.5em;
+
+}
+
+.mps_view_postconnection .mps_list_ul2{
+list-style-position: outside;
+list-style-image:url(../images/link.gif);
+margin: 0 0 0.5em 2.5em;
+font-weight:normal;
+}
+
+.mps_view_postconnection .mps_list_ul1{
+	list-style:none;
+	margin: 0;
+	font-weight:bold;
+}
+
+
